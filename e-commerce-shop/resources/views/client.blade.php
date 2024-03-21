@@ -1,0 +1,13 @@
+@extends('home')
+@section('card-butom')
+    @include('components.card-butom')
+@endsection
+@section('layout-left')
+    @include('components.layout-left')
+@endsection
+@section('layout')
+    @include('components.layout')
+@endsection
+@section('layout-right')
+    @include('components.layout-right')
+@endsection
